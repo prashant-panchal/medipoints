@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html ng-app="medipoints-app"  class="no-js"> <!--<![endif]-->
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="fragment" content="!">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+<title>MediPoints</title>
+<meta name="description" content="">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-144-precomposed.png" sizes="144x144">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-114-precomposed.png" sizes="114x114">
+<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-72-precomposed.png" sizes="72x72">
+<link rel="apple-touch-icon" href="apple-touch-icon-57-precomposed.html" sizes="57x57">
+<link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,600italic,700,800,800italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200italic,300,400,600,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/vauss.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/colors.cssd69a.css?c=2bcdc1" type="text/css" media="all" id="template-colors">
+<script src="js/pace.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js">\x3C/script>')</script>
+<link rel="stylesheet" type="text/css" href="assets/_sliders/iosslider/iosslider.css" media="screen">
+
+
+</head>
+<body data-demopanel="enabled" class="site-responsive homepage header-absolute header-sticky hs--light hs--always mh--dark mh---transparent th--dark th---extra-border th----extra-full th---transparent" itemscope itemtype="http://schema.org/WebPage">
+
+
+<!-- Our Website Content Goes Here -->
+ <div ng-include='"templates/header.html"'></div> 
+	<div ng-view></div>
+ <div ng-include='"templates/footer.html"'></div> 
+
+
+
+<!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="js/angular.js"></script>
+<script src="js/angular-route.min.js"></script>
+
+<!-- Our Website Javascripts -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
